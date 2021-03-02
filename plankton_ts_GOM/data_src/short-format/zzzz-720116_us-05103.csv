@@ -1,0 +1,19 @@
+#-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*
+# 
+#  "EcoMon-SOOP (Gulf of Maine):  Zooplankton abundance data sampled in the Gulf of Maine by the NOAA/NMFS/NEFSC Ecosystem Monitoring Ships Of Opportunity Program (EcoMon-SOOP)"
+# 
+#-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*-----*
+#
+#                COPEPOD:  05-Sep-2017  (Web v10.2 x)
+#
+#              Live-link:  http://www.st.nmfs.noaa.gov/copepod/data/us-05103/index.html 
+#
+#                          A comprehensive content summary and alternate data formats
+#                                 are available online at the web link above.
+#
+#
+#
+#SHP-CRUISE,YEAR,MON,DAY,TIMEgmt,TIMEloc,LATITUDE,LONGITDE,UPPER_Z,LOWER_Z,T,GEAR,MESH,NMFS_PGC,ITIS_TSN,MOD,LIF,PSC,SEX,V, Water Strained, Original-VALUE,Orig-UNITS, VALUE-per-volu,UNITS,F1,F2,F3,F4, VALUE-per-area,UNITS,F1,F2,F3,F4,SCIENTIFIC NAME -[ modifiers ]-, RECORD-ID,DATASET-ID, SHIP, PROJ, INST,Orig-CRUISE-ID,Orig-STATION-ID,Taxa-Name,Taxa-Modifiers,
+#----------,----,---,---,-------,-------,--------,--------,-------,-------,-,----,----,--------,--------,---,---,---,---,-,---------------,---------------,----------,---------------,-----,--,--,--,--,---------------,-----,--,--,--,--,-------------------------------,----------,----------,-----,-----,-----,
+ZZZZ-720116,1972,  1, 16,  5.000,  5.000,  42.900, -65.700,   10.0,   10.0,H, 191, 270, 4212010,   85272,  0,  0,  0,  0,c,           null,         569.00,      #/m3,         569.00, #/m3, 3, 3, 4,-1,          null ,-----,-1,-1,-1,-1,Calanus finmarchicus -[ ]-,0001_0001,EcoMon-SOOP (Gulf of Maine), 9000,   51, 1342,,             35,Calanus finmarchicus,-[ ]-,
+ZZZZ-720116,1972,  1, 16, 17.000, 17.000,  42.867, -66.150,   10.0,   10.0,H, 191, 270, 4212010,   85272,  0,  0,  0,  0,c,           null,         100.00,      #/m3,         100.00, #/m3, 0, 0, 0,-1,          null ,-----,-1,-1,-1,-1,Calanus finmarchicus -[ ]-,0002_0001,EcoMon-SOOP (Gulf of Maine), 9000,   51, 1342,,             37,Calanus finmarchicus,-[ ]-,

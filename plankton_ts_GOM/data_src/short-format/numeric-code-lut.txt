@@ -1,0 +1,22 @@
+ GEAR -------------------------------------
+ GEAR  191 = SAHFOS Continuous Plankton Recorder (CPR)
+ INST -------------------------------------
+ INST 1027 = SAHFOS - Sir Alister Hardy Foundation For Ocean Science (Plymouth - England)
+ INST 1185 = NOAA - NMFS -  National Marine Fisheries Service
+ INST 1207 = Eimskipafelag (Reykjavik -  Iceland)
+ INST 1339 = NOAA - NMFS - Northeast Fisheries Science Center (NEFSC)
+ INST 1341 = NSF - National Science Foundation
+ INST 1342 = Bermuda Container Line Ltd. (Hamilton - Bermuda)
+ INST    1 = NOAA -  National Oceanic & Atmospheric Administration
+ INST  293 = NOAA - NOS - National Ocean Service
+ INST  386 = NOAA - NWS - National Weather Service
+ INST  401 = NOAA - OAR - AOML - Atlantic Oceanographic & Meterological Laboratory (Miami -
+ INST  572 = Hafrannsoknastofnunin - Marine Research Institute (Reykjavik - Iceland)
+ INST  750 = SFI - Sea Fisheries Institute (Gdynia - Poland)
+ PROJ -------------------------------------
+ PROJ  474 = EcoMon-SOOP - EcoMon Ships Of OPportunity program
+ PROJ  502 = EcoMon-RV - EcoMon Research Vessel surveys
+ PROJ   51 = MARMAP - MARine Resources Monitoring; Assessment & Prediction (1977-1987; see a
+ PROJ  561 = EcoMon - NEFSC Ecosystem Monitoring Program
+ SHIP -------------------------------------
+ SHIP 9000 = Ships of Opportunity [zzzz]
