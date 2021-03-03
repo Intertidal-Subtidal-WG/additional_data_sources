@@ -6,7 +6,7 @@
 #Packages
 library(tidyverse)
 
-#load data
+#load data and rename columns accordingly to the source
 
 myfile <- read.delim2("RebuckGoMaineNutrients.txt")
 
@@ -29,4 +29,29 @@ data <- myfile %>%
     Si_OH_quality = X0.1,
     NO3_NO2_quality = X0.2
   )
+
+# select years
+
+data_year <- filter(data, (year > 1981) & (year < 2019))
+
+
+# remove bad quality nutrients data 
+# QA/QC flags: 0-passed all criteria; 
+# 1-outside UMaine range check; 
+# 2-WOD questionable cruise results; 
+# 3-WOD questionable cast results; 
+# 4-fail extreme criteria listed in text; 
+# 9-NaN, on land, zeros for all nutrients
+
+data_y_q <- filter(data_year, (PO4_quality = 0) | (PO4_quality = 1) | (Si_OH_quality = 0) | (Si_OH_quality = 1) |
+                 (NO3_NO2_quality = 0) | (NO3_NO2_quality = 1))
+
+# select GPS locations
+
+# write csv
+
+
+
+
+
 
