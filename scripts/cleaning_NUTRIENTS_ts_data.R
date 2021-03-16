@@ -43,15 +43,24 @@ data_year <- filter(data, (year > 1981) & (year < 2019))
 # 4-fail extreme criteria listed in text; 
 # 9-NaN, on land, zeros for all nutrients
 
-data_y_q <- filter(data_year, (PO4_quality = 0) | (PO4_quality = 1) | (Si_OH_quality = 0) | (Si_OH_quality = 1) |
+nutrients <- filter(data_year, (PO4_quality = 0) | (PO4_quality = 1) | (Si_OH_quality = 0) | (Si_OH_quality = 1) |
                  (NO3_NO2_quality = 0) | (NO3_NO2_quality = 1))
 
 # select GPS locations
 
+
+#select depth
+
+nutrients <- filter(nutrients, sample_depth < 100)
+
 # write csv
+write_csv(nutrients, "prepped_data/nutrients_ts.csv")
 
 
+# Plot trends
+nutrients$NO3_NO2 <- as.numeric(nutrients$NO3_NO2)
+nutrients$sample_depth <- as.numeric(nutrients$sample_depth)
 
-
+plot(nutrients$NO3_NO2 ~ nutrients$year)
 
 
