@@ -101,7 +101,7 @@ nutr_sub <- nutr %>%
   ## constrain to data within bounds
   filter(dec_long <= max_lon, dec_long >= min_lon, 
          dec_lat <= max_lat, dec_lat >= min_lat)
-nrow(nutr_sub2) # [1] 74010
+nrow(nutr_sub) # [1] 74010
   
 ## pull out coordinates
 sample_locs <- nutr_sub[c("dec_long", "dec_lat")]
