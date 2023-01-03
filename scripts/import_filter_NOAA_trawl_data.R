@@ -1,7 +1,7 @@
 
 ## where am I working?
 getwd()
-setwd("../NOAA_trawl_data")
+setwd(here::here("data/raw_data/NOAA_trawl_data"))
 list.files()
 
 ## load required packages
@@ -85,7 +85,7 @@ ggplot(data = strata,
                              y = minlat, yend = maxlat)) + 
   scale_x_continuous(limits = c(-71,-65))
 
-
+write_csv(strata |> filter(near == "1"), "../../strata_used_noaa.csv")
 # bind seasonal data together ---------------------------------------------
 
 ## bind the seasonal data together in a single table
